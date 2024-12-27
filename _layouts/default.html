@@ -5,12 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- test: TOC sidebar -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+
+    <!-- test: TOC sidebar -->
+  <style>
+    body {
+      display: flex;
+    }
+    #sidebar {
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      overflow-y: auto;
+      background-color: #f4f4f4;
+      border-right: 1px solid #ddd;
+      padding: 10px;
+    }
+    #content {
+      margin-left: 260px;
+      padding: 20px;
+    }
+  </style>
+
   </head>
   <body>
     <div class="wrapper">
@@ -38,6 +65,8 @@
           <li><a href="{{ site.github.repository_url }}">Check out <strong>Soundcloud</strong></a></li>
         </ul>
         {% endif %}
+
+        {% include sidebar.html %}
       </header>
       <section>
 
@@ -51,6 +80,36 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <!-- test: add TOC sidebar -->
+    <div id="sidebar">
+      <h2>Table of Contents</h2>
+      <ul id="toc"></ul>
+    </div>
+    <div id="content">
+      {{ content }}
+    </div>
+
+    <!-- test: add TOC sidebar -->
+    <script>
+      // Generate Table of Contents
+      document.addEventListener('DOMContentLoaded', function () {
+        const toc = document.getElementById('toc');
+        const headings = document.querySelectorAll('#content h1, #content h2, #content h3');
+
+        headings.forEach(heading => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.textContent = heading.textContent;
+          a.href = `#${heading.id || heading.textContent.replace(/\s+/g, '-').toLowerCase()}`;
+          heading.id = a.href.substring(1); // Add ID to the heading
+          li.appendChild(a);
+          toc.appendChild(li);
+        });
+      });
+    </script>
+
   </body>
 </html>
