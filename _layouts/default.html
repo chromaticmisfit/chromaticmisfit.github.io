@@ -5,54 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    {% seo %}
+{% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
 
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        font-family: Arial, sans-serif;
-      }
-      #sidebar {
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        background-color: #f4f4f4;
-        border-top: 1px solid #ddd;
-        padding: 10px;
-      }
-      #sidebar ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-      }
-      #sidebar ul li {
-        margin-right: 15px;
-      }
-      #sidebar ul li a {
-        text-decoration: none;
-        color: #007bff;
-      }
-      #sidebar ul li a:hover {
-        text-decoration: underline;
-      }
-      #content {
-        margin-bottom: 50px; /* Space for sidebar */
-        padding: 20px;
-      }
-    </style>
+
+
   </head>
   <body>
     <div class="wrapper">
@@ -65,6 +26,14 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <!--{% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}-->
+
+        <!--{% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}-->
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Check out <strong>Spotify</strong></a></li>
@@ -72,9 +41,13 @@
           <li><a href="{{ site.github.repository_url }}">Check out <strong>Soundcloud</strong></a></li>
         </ul>
         {% endif %}
+
+        {% include sidebar.html %}
       </header>
-      <section id="content">
-        {{ content }}
+      <section>
+
+      {{ content }}
+
       </section>
       <footer>
         {% if site.github.is_project_page %}
@@ -84,26 +57,7 @@
       </footer>
     </div>
 
-    <div id="sidebar">
-      <ul id="toc"></ul>
-    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 
-    <script>
-      // Generate Table of Contents
-      document.addEventListener('DOMContentLoaded', function () {
-        const toc = document.getElementById('toc');
-        const headings = document.querySelectorAll('#content h1, #content h2, #content h3');
-
-        headings.forEach(heading => {
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.textContent = heading.textContent;
-          a.href = `#${heading.id || heading.textContent.replace(/\s+/g, '-').toLowerCase()}`;
-          heading.id = a.href.substring(1); // Add ID to the heading
-          li.appendChild(a);
-          toc.appendChild(li);
-        });
-      });
-    </script>
   </body>
 </html>
