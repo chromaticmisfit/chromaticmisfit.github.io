@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-[Under construction]
-
 # Bio
 
 ## Short Bio
