@@ -45,9 +45,11 @@
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 <!-- Table of Contents Sidebar -->
-<div id="sidebar">
-  <h2>Table of Contents</h2>
-  <ul id="toc"></ul>
+<div id="toc-wrapper">
+  <div id="sidebar">
+    <h2>Table of Contents</h2>
+    <ul id="toc"></ul>
+  </div>
 </div>
 <div id="content">
   {{ content }}
@@ -73,21 +75,19 @@
 
 <style>
   body {
-    display: flex;
+    display: block;
   }
-  #sidebar {
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    overflow-y: auto;
+  #toc-wrapper {
+    width: 100%;
     background-color: #f4f4f4;
-    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
   #content {
-    margin-left: 260px;
+    margin-top: 20px;
     padding: 20px;
   }
 </style>
