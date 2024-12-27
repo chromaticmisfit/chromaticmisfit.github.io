@@ -34,7 +34,7 @@ Whether creating lo-fi chill tracks to unwind or empowering anthems that resonat
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1545079894&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chromatic-misfit" title="Chromatic Misfit" target="_blank" style="color: #cccccc; text-decoration: none;">Chromatic Misfit</a> · <a href="https://soundcloud.com/chromatic-misfit/when-i-met-you" title="when i met you" target="_blank" style="color: #cccccc; text-decoration: none;">when i met you</a></div>
 
 # Get in touch
-- Social Media
+- Social media
   - [BlueSky](https://bsky.app/profile/chromaticmisfit.bsky.social)
   - [Instagram](https://www.instagram.com/itschromaticmisfit)
   - [Threads](https://www.threads.net/@itschromaticmisfit)
