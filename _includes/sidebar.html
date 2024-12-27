@@ -1,22 +1,45 @@
 <div class="link-wrapper">
-  <style scoped>
-    ul.link a {
-      color:var(--clr-h1-and-bold);
-      text-decoration:none;
+  <style>
+    /* Styling for links */
+    .link-wrapper ul.link a {
+      color: var(--clr-h1-and-bold);
+      text-decoration: none;
     }
 
-    ul.link a:hover, a:focus {
+    .link-wrapper ul.link a:hover,
+    .link-wrapper ul.link a:focus {
       color: var(--clr-a-text-hvr);
+    }
+
+    /* Remove bullets from list */
+    .link-wrapper ul.link {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .link-wrapper ul.link li {
+      margin-bottom: 10px; /* Optional spacing between items */
     }
   </style>
   <ul class="link">
-    <li><a href="https://open.spotify.com/artist/5O4l4URYQ4EqEWrbNpVXiS" rel="author"><i class="fa-brands fa-bluesky"></i> Spotify</a></li>
-    <li><a href="https://www.youtube.com/@ChromaticMisfit" rel="external"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
-    <li><a href="https://soundcloud.com/chromatic-misfit" rel="external"><i class="fa-brands fa-soundcloud"></i> Soundcloud</a></li>
+    <li>
+      <a href="https://open.spotify.com/artist/5O4l4URYQ4EqEWrbNpVXiS" rel="author">
+        <i class="fa-brands fa-spotify"></i> Spotify
+      </a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/@ChromaticMisfit" rel="external">
+        <i class="fa-brands fa-youtube"></i> Youtube
+      </a>
+    </li>
+    <li>
+      <a href="https://soundcloud.com/chromatic-misfit" rel="external">
+        <i class="fa-brands fa-soundcloud"></i> Soundcloud
+      </a>
+    </li>
   </ul>
 </div>
 
-  .no-bullets, .no-bullets li {
-        list-style-type:none;
-
-    }
+<!-- Include FontAwesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
