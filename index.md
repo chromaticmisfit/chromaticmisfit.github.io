@@ -4,10 +4,20 @@ layout: default
 [Under construction]
 
 # Bio
-## Long Bio
-Musician. Producer. Songwriter. Daydreamer. Chromatic Misfit is crafting lo-fi tunes and occasionally venturing into pop with heartfelt lyrics and edm as well.  🎶 🎵
+
 ## Short Bio
-Musician. Producer. Songwriter. Daydreamer. Chromatic Misfit is crafting lo-fi tunes and occasionally venturing into pop with heartfelt lyrics and edm as well.  🎶 🎵
+Chromatic Misfit is a multifaceted artist, blending lo-fi soundscapes punctuated by forays into heartfelt pop and EDM. Inspired by Cantopop and sparked by a childhood fascination with music's magic, they create emotionally resonant tunes. Their tracks are a journey: from the Studio Ghibli-esque peace of the self-produced lo-fi track "Dreaming in Reveries" to the pop-EDM anthem "I've Had Enough," exploring struggles with anxiety and finding personal power, and the pulse of their "echoes of the tide - edm version." Their ever-expanding repertoire of music bridges cultures and emotions, offering a uniquely cinematic auditory journey.
+
+## Long Bio
+Chromatic Misfit is a daydreamer turned dynamic music artist whose creative journey is as colorful as their name suggests. A musician, producer, and songwriter, they craft lo-fi melodies with occasional forays into pop and EDM, imbuing each track with heartfelt emotionality and immersive soundscapes. With influences spanning Cantopop, Western pop-punk, and theatrical musicals, Chromatic Misfit’s music is an eclectic blend that feels both deeply personal and universally relatable.
+
+Their musical story began at the tender age of two, watching a concert on TV and singing along while remixing sounds in their mind. Even then, music’s mysterious allure sparked a burning curiosity—a desire to understand and create the enchanting compositions that moved people’s souls. This childhood fascination set the stage for a lifelong love affair with music.
+
+Chromatic Misfit’s work is a testament to their ability to channel life’s complexities into sound. Their debut lo-fi track, "Dreaming in Reveries," is a self-composed and produced piece inspired by the tranquil beauty of Studio Ghibli films. It’s a song that provides a serene escape, a moment of peace in an otherwise hectic world. On the other end of the spectrum, their pop-EDM single "I've Had Enough" tells a powerful story of overcoming anxiety and reclaiming control, wrapped in infectious beats and heartfelt lyrics. Their creativity extends to the atmospheric EDM track "Echoes of the Tide - EDM Version," a sonic portrayal of Hawaiian beach waves and tides, encapsulating the ebb and flow of personal experiences.
+
+Chromatic Misfit's sound is shaped by a myriad of diverse influences. A select few notable examples include the vulnerable melodies and atmospheric sound design within Cantopop artist 麥浚龍 (Juno Mak)’s album "問世 (Evil is a Point of View)," raw synth-driven emotions found in Paramore's "After Laughter," and the infectious and uplifting energy of the "Legally Blonde" musical soundtrack. These influences showcase a deep love for music that is both emotionally resonant and sonically intriguing.
+
+Whether creating lo-fi chill tracks to unwind or empowering anthems that resonate deeply, Chromatic Misfit’s music reflects a relentless curiosity and a passion for connecting with listeners. With an ever-expanding repertoire, they continue to blur the lines between genres, offering a rich, cinematic journey through sound and emotion.
 
 # Videos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GQ5KZLyZ50I?si=hyfohZsf_aQoEgSy&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -19,139 +29,16 @@ Musician. Producer. Songwriter. Daydreamer. Chromatic Misfit is crafting lo-fi t
 # Music
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1994052787&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chromatic-misfit" title="Chromatic Misfit" target="_blank" style="color: #cccccc; text-decoration: none;">Chromatic Misfit</a> · <a href="https://soundcloud.com/chromatic-misfit/echoes-of-the-tide-edm-version" title="echoes of the tide - edm version" target="_blank" style="color: #cccccc; text-decoration: none;">echoes of the tide - edm version</a></div>
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1994047563&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chromatic-misfit" title="Chromatic Misfit" target="_blank" style="color: #cccccc; text-decoration: none;">Chromatic Misfit</a> · <a href="https://soundcloud.com/chromatic-misfit/echoes-of-the-tide" title="echoes of the tide" target="_blank" style="color: #cccccc; text-decoration: none;">echoes of the tide</a></div>
-
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1753516515&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chromatic-misfit" title="Chromatic Misfit" target="_blank" style="color: #cccccc; text-decoration: none;">Chromatic Misfit</a> · <a href="https://soundcloud.com/chromatic-misfit/ive-had-enough" title="I&#x27;ve Had Enough" target="_blank" style="color: #cccccc; text-decoration: none;">I&#x27;ve Had Enough</a></div>
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1894117323&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chromatic-misfit" title="Chromatic Misfit" target="_blank" style="color: #cccccc; text-decoration: none;">Chromatic Misfit</a> · <a href="https://soundcloud.com/chromatic-misfit/midnight-machinations" title="midnight machinations" target="_blank" style="color: #cccccc; text-decoration: none;">midnight machinations</a></div>
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1545079894&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/chromatic-misfit" title="Chromatic Misfit" target="_blank" style="color: #cccccc; text-decoration: none;">Chromatic Misfit</a> · <a href="https://soundcloud.com/chromatic-misfit/when-i-met-you" title="when i met you" target="_blank" style="color: #cccccc; text-decoration: none;">when i met you</a></div>
 
-
 # Get in touch
-- Email
-  - chromatic.misfit@gmail.com
 - Social Media
   - [BlueSky](https://bsky.app/profile/chromaticmisfit.bsky.social)
   - [Instagram](https://www.instagram.com/itschromaticmisfit)
   - [Threads](https://www.threads.net/@itschromaticmisfit)
-
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.add
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+- Email
+  - chromatic.misfit@gmail.com
