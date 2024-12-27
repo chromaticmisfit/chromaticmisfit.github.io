@@ -26,23 +26,7 @@
       margin-bottom: 30px; /* Add spacing */
     }
   </style>
-  <script scoped>
-    // Generate Table of Contents
-    document.addEventListener('DOMContentLoaded', function () {
-      const toc = document.getElementById('toc');
-      const headings = document.querySelectorAll('#content h1, #content h2, #content h3');
 
-      headings.forEach(heading => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.textContent = heading.textContent;
-        a.href = `#${heading.id || heading.textContent.replace(/\s+/g, '-').toLowerCase()}`;
-        heading.id = a.href.substring(1); // Add ID to the heading
-        li.appendChild(a);
-        toc.appendChild(li);
-      });
-    });
-  </script>
   <ul class="link">
     <li>
       <a href="https://open.spotify.com/artist/5O4l4URYQ4EqEWrbNpVXiS" rel="author">
@@ -70,30 +54,47 @@
       </a>
     </li>
   </ul>
+</div>
 
-  <style scoped>
-    body {
-      display: block;
-    }
-    #toc-wrapper {
-      width: 100%;
-      background-color: #ffffff;
-      padding: 0; /* Remove padding */
-      outline: none; /* Remove outline */
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-  </style>
-  <!-- Table of Contents Sidebar -->
-  <div id="toc-wrapper">
+
+<script>
+  // Generate Table of Contents
+  document.addEventListener('DOMContentLoaded', function () {
+    const toc = document.getElementById('toc');
+    const headings = document.querySelectorAll('#content h1, #content h2, #content h3');
+
+    headings.forEach(heading => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.textContent = heading.textContent;
+      a.href = `#${heading.id || heading.textContent.replace(/\s+/g, '-').toLowerCase()}`;
+      heading.id = a.href.substring(1); // Add ID to the heading
+      li.appendChild(a);
+      toc.appendChild(li);
+    });
+  });
+</script>
+<style>
+  body {
+    display: block;
+  }
+  #toc-wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0; /* Remove padding */
+    outline: none; /* Remove outline */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+</style>
+<!-- Table of Contents Sidebar -->
+<div id="toc-wrapper">
+  <div id="sidebar">
     <h3>Table of Contents</h3>
     <ul id="toc"></ul>
   </div>
-
 </div>
-
-<!-- Include FontAwesome -->
 
 <!--
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
