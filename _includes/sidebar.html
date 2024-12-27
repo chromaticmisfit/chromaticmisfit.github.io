@@ -25,6 +25,34 @@
     .link-wrapper {
       margin-bottom: 30px; /* Add spacing */
     }
+
+    /* TOC Styling */
+    #toc-wrapper {
+      width: 100%;
+      background-color: #ffffff;
+      padding: 0; /* Remove padding */
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    #toc ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #toc ul li {
+      margin: 5px 0;
+    }
+
+    #toc ul li a {
+      color: var(--clr-h1-and-bold);
+      text-decoration: none;
+    }
+
+    #toc ul li a:hover {
+      color: var(--clr-a-text-hvr);
+    }
   </style>
 
   <ul class="link">
@@ -56,38 +84,28 @@
   </ul>
 </div>
 
-
 <script>
   // Generate Table of Contents
   document.addEventListener('DOMContentLoaded', function () {
     const toc = document.getElementById('toc');
-    const headings = document.querySelectorAll('#content h1, #content h2, #content h3');
+    const headings = document.querySelectorAll('#content h1, #content h2'); // Select h1 and h2 only
 
     headings.forEach(heading => {
       const li = document.createElement('li');
       const a = document.createElement('a');
+      const headingId = heading.id || heading.textContent.replace(/\s+/g, '-').toLowerCase();
+
+      // Ensure unique IDs by checking if already exists
+      heading.id = headingId;
       a.textContent = heading.textContent;
-      a.href = `#${heading.id || heading.textContent.replace(/\s+/g, '-').toLowerCase()}`;
-      heading.id = a.href.substring(1); // Add ID to the heading
+      a.href = `#${headingId}`;
+
       li.appendChild(a);
       toc.appendChild(li);
     });
   });
 </script>
-<style>
-  body {
-    display: block;
-  }
-  #toc-wrapper {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 0; /* Remove padding */
-    outline: none; /* Remove outline */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-</style>
+
 <!-- Table of Contents Sidebar -->
 <div id="toc-wrapper">
   <div id="sidebar">
@@ -95,7 +113,6 @@
     <ul id="toc"></ul>
   </div>
 </div>
-
 
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
