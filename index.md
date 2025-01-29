@@ -38,7 +38,7 @@ Whether creating lo-fi chill tracks to unwind or empowering anthems that resonat
 # Get in touch
 - Social media
   - [BlueSky](https://bsky.app/profile/chromaticmisfit.bsky.social)
-  - [Instagram](https://www.instagram.com/itschromaticmisfit)
-  - [Threads](https://www.threads.net/@itschromaticmisfit)
+  - [Instagram](https://www.instagram.com/chromaticmisfit)
+  - [Threads](https://www.threads.net/@chromaticmisfit)
 - Email
   - chromatic.misfit@gmail.com
